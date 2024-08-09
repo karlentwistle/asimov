@@ -63,6 +63,8 @@ readonly ASIMOV_VENDOR_DIR_SENTINELS=(
     'target plugins.sbt'               # Sbt plugins (Scala)
     'vendor composer.json'             # Composer (PHP)
     'vendor Gemfile'                   # Bundler (Ruby)
+    'tmp Gemfile'                      # Bundler (Ruby)
+    'log Gemfile'                      # Bundler (Ruby)
     'vendor go.mod'                    # Go Modules (Golang)
     'venv requirements.txt'            # virtualenv (Python)
     'deps mix.exs'                     # Mix dependencies (Elixir)
